@@ -8,3 +8,5 @@ This frontend project pretends to get familiar with the following web technologi
 * Gulp
 * Mocha
 * Karma
+* Sass
+* Knockout

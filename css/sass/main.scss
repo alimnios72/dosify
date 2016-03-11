@@ -1,0 +1,10 @@
+$title-color: blue;
+$title-size: 40px;
+
+body {
+  h1 {
+    color: $title-color;
+    font-size: $title-size;
+    text-align: center;
+  }
+}

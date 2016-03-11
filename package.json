@@ -4,6 +4,8 @@
   "dependencies" :
   {
     "gulp" : "latest",
-    "gulp-sass" : "latest"
+    "gulp-util" : "latest",
+    "gulp-sass" : "latest",
+    "gulp-coffee" : "latest"
   }
 }

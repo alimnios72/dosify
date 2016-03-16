@@ -1,4 +1,8 @@
 {
-  "name": "dosify",
-  "description": "An app to never forget taking your medication"
+  "name" : "dosify",
+  "description" : "An app to never forget taking your medication",
+  "dependencies" : {
+    "knockout" : "latest",
+    "requirejs" : "latest"
+  }
 }

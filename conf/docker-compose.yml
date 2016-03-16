@@ -1,0 +1,7 @@
+nginx:
+    image: alimnios72/nginx
+    ports:
+        - 8080:80
+    volumes:
+        - ../:/var/www/public
+        - ./vhost.conf:/etc/nginx/sites-enabled/vhost.conf

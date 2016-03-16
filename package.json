@@ -1,0 +1,11 @@
+{
+  "name" : "dosify",
+  "description" : "An app to never forget taking your medication",
+  "dependencies" :
+  {
+    "gulp" : "latest",
+    "gulp-util" : "latest",
+    "gulp-sass" : "latest",
+    "gulp-coffee" : "latest"
+  }
+}

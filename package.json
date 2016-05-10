@@ -7,6 +7,9 @@
     "gulp-util" : "latest",
     "gulp-sass" : "latest",
     "gulp-coffee" : "latest",
-    "gulp-mocha" : "latest"
+    "gulp-mocha" : "latest",
+    "gulp-concat" : "latest",
+    "mocha" : "latest",
+    "chai" : "latest"
   }
 }

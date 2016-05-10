@@ -3,6 +3,7 @@ var sass = require('gulp-sass');
 var coffee = require('gulp-coffee');
 var gutil = require('gulp-util');
 var mocha = require('gulp-mocha');
+var concat = require('gulp-concat');
 
 gulp.task('styles', function() {
     gulp.src('css/sass/**/*.scss')
@@ -11,8 +12,9 @@ gulp.task('styles', function() {
 });
 
 gulp.task('coffee', function() {
-    gulp.src('app/coffee/**/*.coffee')
+    gulp.src('app/models/**/*.coffee')
         .pipe(coffee({bare:true}).on('error', gutil.log))
+        .pipe(concat('app.js'))
         .pipe(gulp.dest('app/'));
 });
 
